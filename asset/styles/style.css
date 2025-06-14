@@ -1,0 +1,187 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  color: white;
+  background-color: #e5d0cc;
+}
+
+header.navbar-container {
+  background-color: #172121;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  width: 100%;
+  padding-block: 0.5rem;
+  margin-inline: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 9999;
+  position: sticky;
+  top: 0;
+  font-size: 1.2rem;
+}
+
+header.navbar-container .logo p {
+  color: white;
+  width: 150px;
+}
+
+header.navbar-container .nav-list ul {
+  padding-left: 0;
+  display: flex;
+  justify-content: center;
+  gap: 2rem 4rem;
+}
+
+header.navbar-container .nav-list li {
+  list-style-type: none;
+}
+
+header.navbar-container .nav-list a:hover {
+  background-color: #e5d0cc;
+  color: #172121;
+  border-radius: 32px;
+  font-weight: bold;
+}
+
+header.navbar-container .nav-list li a {
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  font-size: 1.05rem;
+  font-weight: 500;
+  color: white;
+}
+
+main {
+  flex: 1;
+  width: 100%;
+  margin-inline: auto;
+  display: flex;
+  align-items: center;
+}
+
+.image-container {
+  position: relative;
+  width: 100%;
+  margin: 1px 0;
+  opacity: 0.7;
+}
+
+.background-image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translateY(-50%);
+  color: white;
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.4;
+  text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+}
+
+#definisi h2 {
+  background-color: #7f7b82;
+  color: white;
+  padding: 1rem;
+  width: 25%;
+  border-radius: 32px;
+  text-align: center;
+  font-size: 25px;
+  margin: 1rem;
+}
+
+#definisi h3 {
+  text-decoration: underline;
+  font-size: 20px;
+}
+
+#definisi p {
+  font-size: 20px;
+}
+
+#definisi .def {
+  background-color: #444554;
+  margin: 1rem;
+  padding: 2rem;
+  border-radius: 14px;
+}
+
+#mujtahid {
+  background-color: #222831;
+  width: 100%;
+  display: flex;
+  padding: 2rem;
+  margin: 4rem 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#mujtahid h2 {
+  font-size: 25px;
+}
+
+#mujtahid ul {
+  font-size: 20px;
+}
+
+#mujtahid .mujtahid-row {
+  flex-direction: row;
+}
+
+#mujtahid img {
+  max-width: 40%;
+  height: auto;
+}
+
+#metode h2 {
+  background-color: #7f7b82;
+  color: white;
+  padding: 1rem;
+  margin: 1rem;
+  width: 30%;
+  border-radius: 32px;
+  text-align: center;
+  font-size: 25px;
+}
+
+#metode .met {
+  background-color: #444554;
+  border-radius: 14px;
+  padding: 2rem;
+  margin: 1rem 1rem 4rem 1rem;
+  font-size: 20px;
+}
+
+.container-content .content {
+  transition: max-height 0.5s ease-in-out, padding 0.5s ease-in-out,
+    opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+footer {
+  background-color: #172121;
+  width: 100%;
+  padding-block: 1rem;
+  text-align: center;
+}
+
+footer .red {
+  color: red;
+}
+
+.met ol {
+  font-weight: bold;
+}
+
+.met li p {
+  font-weight: normal;
+}
